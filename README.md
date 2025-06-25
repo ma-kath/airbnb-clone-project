@@ -21,3 +21,16 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 * Redis: Used for caching and session management.
 * Docker: Containerization tool for consistent development and deployment environments.
 * CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+## Team Roles
+* Business analyst: Understands customer’s business processes and translates customer business needs into requirements.
+* Product owner: Holds responsibility for a product vision and evolution and makes sure the final product meets customer requirements.
+* Project manager: Makes sure a product or its part is delivered on time and within budget and manages and motivates the software development team.
+* UI/UX designer: Transforms a product vision into user-friendly designs and creates user journeys for the best user experience and highest conversion rates.
+* Software architect: Designs a high-level software architecture. Selects appropriate tools and platforms to implement the product vision. Sets up code quality standards and performs code reviews. 
+* Front-end developer: Create the part of an application that users interact with, ensuring that an app offers an equally smooth experience to all—no matter the device, platform, or operational system.
+* Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
+* Test automation engineer: Designs a test automation ecosystem and rites and maintains test scripts for automated testing.
+* Database Administrator: Manages database design, indexing, and optimizations.
+* DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
+* QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
