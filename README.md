@@ -38,19 +38,26 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 ## Database Design
 1. User Authentication
 * Endpoints: /users/, /users/{user_id}/, /users/{name}/, /users/{address}/
-* Features: Register new users, authenticate, and manage user profiles.
 2. Property Management
 * Endpoints: /properties/, /properties/{property_id}/, /properties/{booking_id}/, /properties/{pro_address}/
-* Features: Create, update, retrieve, and delete property listings.
 3. Booking System
 * Endpoints: /bookings/, /bookings/{booking_id}/, /bookings/{booking_date}/, /bookings/{check_in}/, /bookings/{check_out}/
-* Features: Make, update, and manage bookings, including check-in and check-out details.
 4. Payment Processing
 * Endpoints: /payments/, /payments/{payment_id}/, /payments/{price}/, /payments/{payment_date}/, /payments/{}
-* Features: Handle payment transactions related to bookings.
 5. Review System
 * Endpoints: /reviews/, /reviews/{review_id}/, /reviews/{review_text}/, /reviews/{user_id}/, /reviews/{review_date}/
-* Features: Post and manage reviews for properties.
 6. Database Optimizations
 * Indexing: Implement indexes for fast retrieval of frequently accessed data.
 * Caching: Use caching strategies to reduce database load and improve performance.
+
+## Feature Breakdown
+1. User Management
+* Features: Register new users, authenticate, and manage user profiles.
+2. Property Management
+* Features: Create, update, retrieve, and delete property listings.
+3. Booking System
+* Features: Make, update, and manage bookings, including check-in and check-out details.
+4. Payment Processing
+* Features: Handle payment transactions related to bookings.
+5. Review System
+* Features: Post and manage reviews for properties.
