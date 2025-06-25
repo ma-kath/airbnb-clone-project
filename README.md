@@ -53,11 +53,16 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 ## Feature Breakdown
 1. User Management
 * Features: Register new users, authenticate, and manage user profiles.
+> This feature allows users to register, log in, and manage their personal profiles. It is crucial for personalizing the user experience and securing individual accounts within the system.
 2. Property Management
 * Features: Create, update, retrieve, and delete property listings.
+> This enables users to create, update, view, and remove property listings. This feature forms the core of the platform, facilitating the display and organization of available properties for rent or sale.
 3. Booking System
 * Features: Make, update, and manage bookings, including check-in and check-out details.
+> This functionality allows users to make, modify, and oversee their bookings, including specifying check-in and check-out times. It is essential for managing the reservation process and ensuring a smooth experience for both property owners and renters.
 4. Payment Processing
 * Features: Handle payment transactions related to bookings.
+> This feature handles all financial transactions related to bookings. It is vital for secure and efficient monetary exchanges, ensuring that payments are processed correctly and reliably.
 5. Review System
 * Features: Post and manage reviews for properties.
+> This allows users to post and manage reviews for properties. It contributes to building trust and transparency within the platform by providing valuable feedback for future users and property owners.
