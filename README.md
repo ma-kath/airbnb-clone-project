@@ -66,3 +66,16 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 5. Review System
 * Features: Post and manage reviews for properties.
 > This allows users to post and manage reviews for properties. It contributes to building trust and transparency within the platform by providing valuable feedback for future users and property owners.
+
+## API Security
+Robust API security is paramount for the success and trustworthiness of this project. We will implement several key security measures to protect sensitive data and ensure the integrity of all transactions.
+
+### Key Security Measures:
+* **Authentication:** This involves verifying the identity of any user or system attempting to access the API. Methods such as token-based authentication (e.g., JWTs) will be used to ensure that only legitimate and identified entities can interact with the system. This prevents unauthorized access by ensuring that every request is made by a verified user or application.
+* **Authorization:** Once authenticated, authorization determines what specific actions an authenticated user or system is allowed to perform. Role-Based Access Control (RBAC) will be implemented to grant permissions based on predefined user roles (e.g., a "property owner" can manage their listings, while a "renter" can make bookings). This granular control ensures that users can only access and manipulate data relevant to their role, preventing privilege escalation and unauthorized data modification.
+* **Rate Limiting:** This mechanism restricts the number of API requests a user or system can make within a specified timeframe. Rate limiting helps to prevent abuse, such as brute-force attacks on login endpoints or denial-of-service (DoS) attacks that could overwhelm the system. By controlling the request volume, it maintains system stability and availability for all legitimate users.
+
+### Cruciality of Security for Each Key Area:
+* **Protecting User Data (User Management & Review System):** Security is critical for user data to maintain privacy and prevent identity theft. Compromised user profiles could lead to personal information being exposed or misused. Strong authentication and authorization ensure that only the user themselves, or authorized personnel, can access and modify their profile information, and that reviews are attributed correctly and cannot be tampered with by malicious actors.
+* **Securing Payments (Payment Processing):** Payment processing involves highly sensitive financial information. Security measures like encryption (HTTPS/TLS) for data in transit, and potentially tokenization of card details, are crucial to prevent fraud, data breaches, and financial losses for both users and the platform. A breach in this area would severely damage trust and could lead to significant legal and financial repercussions.
+* **Ensuring Data Integrity (Property Management & Booking System):** The integrity of property listings and booking details is essential for the smooth operation of the platform. If these areas are not secure, malicious actors could alter property prices, availability, or even booking details, leading to confusion, financial disputes, and a breakdown of trust. Authentication and authorization prevent unauthorized modifications, ensuring that property information and booking statuses are accurate and reliable.
